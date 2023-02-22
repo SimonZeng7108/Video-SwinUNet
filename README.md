@@ -1,18 +1,18 @@
 # Video-SwinUNet
 This is the official repo for the paper **[<{Video-SwinUNet: Spatio-temporal Deep Learning Framework for VFSS Instance Segmentation>](arXvi Link)**.<br/>
-<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/main/Figs/swin.gif" width="500" height="280"><br/>
+<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/swin.gif" width="500" height="280"><br/>
 
 ## Abstract
 This paper presents a deep learning framework for medical video segmentation. Convolution neural network (CNN) and transformer-based methods have achieved great milestones in medical image segmentation tasks due to their incredible semantic feature encoding and global information comprehension abilities. However, most existing approaches ignore a salient aspect of medical video data - the temporal dimension. Our proposed framework explicitly extracts features from neighbouring frames across the temporal dimension and incorporates them with a temporal feature blender, which then tokenises the high-level spatio-temporal feature to form a strong global feature encoded via a Swin Transformer. The final segmentation results are produced via a UNet-like encoder-decoder architecture. Our model outperforms other approaches by a significant margin and improves the segmentation benchmarks on the VFSS2022 dataset, achieving a dice coefficient of 0.8986 and 0.8186 for the two datasets tested. Our studies also show the efficacy of the temporal feature blending scheme and cross-dataset transferability of learned capabilities.
 
 ## Architecture Overview
-<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/main/Figs/Video_swin.png" width="800" height="330"><br/>
+<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/Video_swin.png" width="800" height="330"><br/>
 (a)A ResNet-50 CNN feature extractor; (b)Temporal Context Module for temporal feature blending; (c)A Swin transformer-based feature encoder; (d)Cascaded CNN up-sampler for segmentation reconstruction; (e)2-layer segmentation head for detailed pixel-wise label mapping. Three skip connections are bridged between the CNN feature extractor and up-sampler as well as from the temporal features.<br/>
 
 ## Grad-Cam results & Snippet Size study
 <p float="left">
-  <img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/main/Figs/grad_cam_output.png" width="300" height="300" />
-  <img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/main/Figs/confusion_matrix.png" width="335" height="305" /> 
+  <img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/grad_cam_output.png" width="300" height="300" />
+  <img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/confusion_matrix.png" width="335" height="305" /> 
 </p>
 
 Comparing the two closest competing architectures, grad-cam maps show where the model pays attention. Note the cleaner focus of our proposed approach.<br/>
@@ -20,9 +20,9 @@ Grid search over snippet sizes `t = 3, 5, 7, 9, 11 & 13` revealed the optimal, a
 
 ## Qualitative results
 **VFSS Part1**<br/>
-<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/main/Figs/quality.png" width="640" height="810"><br/>
-**VFSS Part21**<br/>
-<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/main/Figs/qe_output.png" width="640" height="500"><br/>
+<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/quality.png" width="640" height="810"><br/>
+**VFSS Part2**<br/>
+<img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/qe_output.png" width="640"  height="510"><br/>
 
 ## Repo usage
 ### Requirements 

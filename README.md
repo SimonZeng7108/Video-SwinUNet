@@ -1,5 +1,6 @@
 # Video-SwinUNet
-This is the official repo for the paper **[<{Video-SwinUNet: Spatio-temporal Deep Learning Framework for VFSS Instance Segmentation>](arXvi Link)**.<br/>
+This is the official repo for the paper **[<{Video-SwinUNet: Spatio-temporal Deep Learning Framework for VFSS Instance Segmentation>](https://arxiv.org/abs/2302.11325)**.<br/>
+Chengxi Zeng, Xinyu Yang, David Smithard, Majid Mirmehdi, Alberto M Gambaruto, Tilo Burghardt<br/>
 <img src="https://github.com/SimonZeng7108/Video-SwinUNet/blob/master/Figs/swin.gif" width="500" height="280"><br/>
 
 ## Abstract
@@ -66,7 +67,43 @@ Test:<br/>
 
 ## Citation
 ```
+@misc{https://doi.org/10.48550/arxiv.2208.08315,
+  doi = {10.48550/ARXIV.2208.08315},
+  
+  url = {https://arxiv.org/abs/2208.08315},
+  
+  author = {Zeng, Chengxi and Yang, Xinyu and Mirmehdi, Majid and Gambaruto, Alberto M and Burghardt, Tilo},
+  
+  keywords = {Image and Video Processing (eess.IV), Computer Vision and Pattern Recognition (cs.CV), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Video-TransUNet: Temporally Blended Vision Transformer for CT VFSS Instance Segmentation},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+```
 
 
+```
+@misc{https://doi.org/10.48550/arxiv.2302.11325,
+  doi = {10.48550/ARXIV.2302.11325},
+  
+  url = {https://arxiv.org/abs/2302.11325},
+  
+  author = {Zeng, Chengxi and Yang, Xinyu and Smithard, David and Mirmehdi, Majid and Gambaruto, Alberto M and Burghardt, Tilo},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Video-SwinUNet: Spatio-temporal Deep Learning Framework for VFSS Instance Segmentation},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
+}
 ```
 

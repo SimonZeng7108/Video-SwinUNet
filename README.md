@@ -67,22 +67,11 @@ Test:<br/>
 
 ## Citation
 ```
-@misc{https://doi.org/10.48550/arxiv.2208.08315,
-  doi = {10.48550/ARXIV.2208.08315},
-  
-  url = {https://arxiv.org/abs/2208.08315},
-  
-  author = {Zeng, Chengxi and Yang, Xinyu and Mirmehdi, Majid and Gambaruto, Alberto M and Burghardt, Tilo},
-  
-  keywords = {Image and Video Processing (eess.IV), Computer Vision and Pattern Recognition (cs.CV), FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
-  title = {Video-TransUNet: Temporally Blended Vision Transformer for CT VFSS Instance Segmentation},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+@inproceedings{Zeng2022VideoTransUNetTB,
+  title={Video-TransUNet: temporally blended vision transformer for CT VFSS instance segmentation},
+  author={Cheng Zeng and Xinyu Yang and Majid Mirmehdi and Alberto M. Gambaruto and Tilo Burghardt},
+  booktitle={International Conference on Machine Vision},
+  year={2022}
 }
 ```
 
